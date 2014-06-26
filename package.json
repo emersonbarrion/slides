@@ -1,16 +1,17 @@
 {
   "name": "heroku",
   "version": "0.0.1",
-  "description": "This example app is so cool.",
+  "description": "Application for Presentation",
   "main": "index.js",
   "dependencies": {
-    "express": "~2.5.9"
+    "express": "~2.5.9",
+    "socket.io": "latest"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/emersonbarrion/slides.git"
   },
-  "author": "jane-doe",
+  "author": "Emerson Barrion",
   "license": "MIT",
   "engines": {
     "node": "0.8.x",
