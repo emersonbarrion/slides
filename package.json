@@ -1,0 +1,20 @@
+{
+  "name": "heroku",
+  "version": "0.0.1",
+  "description": "This example app is so cool.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~2.5.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emersonbarrion/slides.git"
+  },
+  "author": "jane-doe",
+  "license": "MIT",
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "readme": "Test application"
+}
