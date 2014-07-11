@@ -10,4 +10,9 @@ window.onload = function() {
             socket.emit('slide number', data - 1);
         };
     }); 
+
+    socket.on('message', function (data) {
+    	var messageTxt = document.getElementById("mes").value;
+    	socket.emit('message', messageTxt);
+    }); 
 }

@@ -23,4 +23,8 @@ io.sockets.on('connection', function (socket) {
     	slideNum = data;
         io.sockets.emit('slide number', slideNum);
     });
+
+    socket.on('message', function (data) {
+        io.sockets.emit('message', data);
+    });
 });
