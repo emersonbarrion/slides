@@ -2,11 +2,21 @@
 <html>
 	<head>
 		<title>Presentor</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/library/jquery-mobile/jquery.mobile-1.4.3.min.css">
+		<script src="/library/jquery.min.js"></script>
+		<script src="/library/jquery-mobile/jquery.mobile-1.4.3.min.js"></script>
 		<script src="/controller.js"></script>
 		<script src="/socket.io/socket.io.js"></script>
 	</head>
+
 	<body>
-		<div id="next">Next</div>
-		<div id="previous">Previous</div>
+	    <div data-role="page">
+	        <div data-role="header"><h1>Controller</h1></div>
+	        <div data-role="content">
+				<a id="next" href="#" data-role="button" data-icon="star">Next</a>
+				<a id="previous" href="#" data-role="button" data-icon="star">Previous</a>
+	        </div>
+	    </div>
 	</body>
 </html>
